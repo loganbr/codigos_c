@@ -28,28 +28,33 @@ char texto[20];
 int cont=0;
 int chave;
 
-void limpa_tela(FILE *in) {
+void limpa_tela(FILE *in)
+{
 	int caracter;
 	clearerr(in);
 	do
-        caracter = getc(in);
+         caracter = getc(in);
 	while ( caracter != '\n' && caracter != EOF);
 	clearerr(in);
 }
 
-int main(int argc,char* argv[]){
+int 
+main(int argc,char* argv[])
+{
     
         int opt;
         
-        while (1) {
+        while (1) 
+        {
             char a;
             
             a = getopt (argc, argv, "cdv:");
-            if (a == -1) {
+            if (a == -1) 
                 /* We have finished processing all the arguments. */
                 break;
-            }
-            switch (a) {
+            
+            switch (a) 
+            {
                 case 'c':
                     printf ("Encrypts Text Entered -c.\n");
                     break;
