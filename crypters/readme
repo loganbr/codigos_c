@@ -1,0 +1,25 @@
+cryptrot13 - Is an Simple tool for encryption and decryption texts
+
+1. What is an cryptrot13
+2. OS support
+3. Compiling
+4. Bug and Fix
+
+1. What is an cryptrot13
+
+It's licensed under GPLv3+ terms.
+
+2. OS support
+
+ This version is compiling and tested in Linux (x86 and x86-64),
+ If you compiling this algorithm sucessfully in other environments,
+ please let me know.
+
+3. Compiling
+
+gcc cryptrot13.c -o cryptrot13
+
+4. Bug and Fix
+
+I'm needing some help. If you want to contribute, please contact at
+<ricarloganbr *noSPAM* gmail.com>
