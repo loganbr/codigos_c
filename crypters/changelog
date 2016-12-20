@@ -1,10 +1,13 @@
 cryptrot13 - tool for encryption and decryption texts - ChangeLog
 
 cryptrot13 - July 16, 2013
-fix bugs (Ricardo Loganbr / Cooler_)
+fix bugs (L0gan / Cooler_)
 
 cryptrot13 - July 9, 2013
-New Features (Ricardo Loganbr)
+New Features (L0gan)
 
 cryptrot13 - July 6, 2013
-Initial release (Ricardo Loganbr / Gustavo Robertux)
+Initial release (L0gan / Gustavo Robertux)
+
+crypters - Dec 13, 2016
+change name cryptrot13 for crypters (L0gan)
